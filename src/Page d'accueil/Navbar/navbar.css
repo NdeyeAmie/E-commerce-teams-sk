@@ -1,0 +1,104 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 10vh; */
+    padding: 25px 10px ;
+    border-bottom: 1px solid rgb(24, 24, 24);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 30px;
+    border: 1px solid;
+}
+
+.barre{
+    /* padding: 5px; */
+    border: 1px solid rgb(24, 24, 24);
+    border-radius: 5px;
+    width: 300px;
+    position: relative;
+}
+
+.barre input{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.barre i{
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    color: rgb(24, 24, 24);
+    /* width: 25px; */
+    /* height: 100%; */
+    /* background-color: black; */
+}
+
+.autres{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.autres .connexion{
+    height: 5vh;
+    padding: 18px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+
+.connexion i{
+    color: white;
+    font-size: 14px;
+}
+
+.connexion p{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.panier{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+.panier i{
+    font-size: 18px;
+}
+
+.panier span{
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    font-size: 18px;
+    color: rgb(24, 24, 24);
+    background-color: whitesmoke;
+    /* padding: 5px; */
+    /* background-color: rgb(24, 24, 24); */
+    border-radius: 50%;
+    /* color: white; */
+}
