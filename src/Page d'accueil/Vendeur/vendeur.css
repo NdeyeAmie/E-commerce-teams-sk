@@ -1,0 +1,20 @@
+.vendeur{
+    width: 175px;
+    padding: 10px;
+    background-color: bisque;
+    text-align: center;
+    border: 1px solid;
+}
+
+.vendeur img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid lightsalmon;
+}
+
+.vendeur h6{
+    margin-top: 5px;
+    margin-bottom: 0;
+}

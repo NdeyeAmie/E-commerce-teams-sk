@@ -1,0 +1,37 @@
+.pubContent{
+    width: 100%;
+    height: 55vh;
+    margin: 10px 0;
+    background-color: chocolate;
+    /* padding: 2px; */
+    border-radius: 5px;
+    position: relative;
+}
+
+.pubContent img{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    border-radius: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pubContent .degradEx{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: end; */
+    padding: 20px;
+}
+
+.degradEx h3{
+    color: white;
+}

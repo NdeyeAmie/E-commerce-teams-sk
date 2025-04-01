@@ -6,6 +6,7 @@ const CardPart = () => {
         <div className="card">
             <div className="image">
                 <img src="" alt="" />
+                <button>Add to card</button>
             </div>
             <h6>Nom</h6>
             <p>$ <span>20000</span>fr</p>

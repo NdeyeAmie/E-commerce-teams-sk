@@ -1,0 +1,8 @@
+.boutique{
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2px;
+}
+
