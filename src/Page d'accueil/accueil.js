@@ -6,8 +6,9 @@ import SectionPart from "./Section/section";
 import Cardsection from "./CardSection/cards"
 import BoutiquePart from "./BoutiqueProfil/boutique";
 import PubSection from "./SectionPub/pub";
+import FooterPart from "./Footer/footer";
 
-import Imag from "./image/2.png"
+import Imag from "./image/2.jpg"
 
 
 const Acceuil = () => {
@@ -29,6 +30,12 @@ const Acceuil = () => {
                 image={Imag}
                 texte="Black Clover"
              />
+             <SectionPart 
+                firstTitre="Produits"
+                secondTitre="Recentes Produits"
+                specialCard={<Cardsection />}
+             />
+             <FooterPart />
         </div>
      );
 }

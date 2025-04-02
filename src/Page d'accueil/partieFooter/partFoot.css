@@ -1,0 +1,23 @@
+.partFoot{
+    width: 200px;
+    background-color: brown;
+    padding: 10px;
+}
+
+.partFoot .titre{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.partFoot ul{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.partFoot ul li{
+    padding: 5px 0;
+    font-size: 16px;
+    color: bisque;
+}

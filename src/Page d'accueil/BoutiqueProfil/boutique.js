@@ -1,7 +1,7 @@
 import React from "react";
 import './boutique.css'
 import Vendeur from "../Vendeur/vendeur.js";
-import Image from "../image/1.png"
+import Image from "../image/1.jpg"
 
 const BoutiquePart = () => {
     return ( 
