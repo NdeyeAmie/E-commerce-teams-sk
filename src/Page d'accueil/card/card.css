@@ -18,7 +18,7 @@
 .card .image{
     height: 250px;
     margin-bottom: 10px;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.3);
     position: relative;
     display: flex;
     align-items: center;
@@ -37,14 +37,14 @@
 }
 
 .image img{
-    width: 60%;
-    height: 60%;
+    width: 150px;
+    /* height: 60%; */
     object-fit: cover;
     margin-top: -35px;
     /* background-color: aqua; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .card h6,.card p{
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
