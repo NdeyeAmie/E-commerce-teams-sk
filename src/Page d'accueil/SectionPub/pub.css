@@ -1,0 +1,71 @@
+.pubContent{
+    width: 100%;
+    height: 60vh;
+    margin: 10px 0;
+    /* background-color: chocolate; */
+    /* padding: 2px; */
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.pubContent img{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    border-radius: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pubContent .degradEx{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: end; */
+    padding: 20px;
+}
+
+.degradEx h3{
+    color: white;
+    font-size: 25px;
+    position: relative;
+}
+
+.degradEx h3::after, .degradEx h3::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.degradEx h3::after{
+    top: -15px;
+    left: -75px;
+}
+
+.degradEx h3::before{
+    right: -75px;
+    bottom: -15px;
+}
+
+.degradEx h3:hover {
+    color: burlywood; /* Changer la couleur du texte du h3 au survol */
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.degradEx h3:hover:before, 
+.degradEx h3:hover:after {
+    background-color: burlywood; /* Changer le fond des pseudo-éléments au survol */
+    transition: all .3s ease-in-out;
+}

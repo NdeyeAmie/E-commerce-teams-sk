@@ -1,0 +1,32 @@
+.partInfo{
+    padding: 15px;
+    /* background-color: bisque; */
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.partInfo .icone{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(50, 50, 50, 0.4);
+    padding: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone i{
+    position: absolute;
+    /* border-radius: 50%; */
+    /* background-color: aqua; */
+}
+
+.partInfo h6{
+    margin-top: 10px;
+    margin-bottom: 0;
+}

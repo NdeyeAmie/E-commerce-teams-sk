@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    color: whitesmoke;
+    padding: 20px 0;
+}
+
+.footContent{
+    width: 100%;
+    min-height: 45vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 15px;
+}

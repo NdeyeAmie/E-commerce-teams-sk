@@ -1,0 +1,7 @@
+.accueil{
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+    /* border: 1px solid; */
+    min-height: 100vh;
+}

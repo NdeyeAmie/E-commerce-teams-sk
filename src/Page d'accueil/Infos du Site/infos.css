@@ -1,0 +1,8 @@
+.infos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    /* margin: 10px 0; */
+}

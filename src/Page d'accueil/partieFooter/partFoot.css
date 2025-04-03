@@ -1,0 +1,40 @@
+.partFoot{
+    width: 200px;
+    /* background-color: brown; */
+    padding: 10px;
+    /* border-left: 1px solid burlywood; */
+}
+
+.partFoot .titre{
+    font-size: 20px;
+    /* color: blue; */
+    color: burlywood;
+    margin-bottom: 10px;
+}
+
+.partFoot ul{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.partFoot ul li{
+    padding: 2px 0;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.partFoot p{
+    color: whitesmoke;
+}
+
+.lesIcones {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.lesIcones i{
+    font-size: 20px;
+    color: whitesmoke;
+}

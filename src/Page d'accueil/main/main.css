@@ -1,0 +1,20 @@
+.leMain{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.leMain .left{
+    flex: 1;
+    width: 100%;
+    padding: 5px;
+    /* background-color: aqua; */
+}
+
+.leMain .right{
+    flex: 4;
+    padding: 5px;
+    width: 100%;
+    /* background-color: blue; */
+}
