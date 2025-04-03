@@ -18,7 +18,7 @@ import PersonAdd from "@mui/icons-material/PersonAdd";
 import Logout from "@mui/icons-material/Logout";
 import { IoShieldHalfOutline } from "react-icons/io5";
 
-function Header() {
+function HeaderAdmin() {
   const [anchorEl, setAnchorEl] = useState(null);
   const [isOpennotificationDrop, setisOpennotificationDrop] = useState(false);
   const openMyAcc = Boolean(anchorEl);
@@ -305,4 +305,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderAdmin;
