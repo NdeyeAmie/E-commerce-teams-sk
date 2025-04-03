@@ -1,9 +1,11 @@
 .vendeur{
     width: 175px;
-    padding: 10px;
-    background-color: bisque;
+    padding: 15px 5px;
+    /* background-color: bisque; */
     text-align: center;
-    border: 1px solid;
+    box-shadow: 5px 5px 5px rgb(50, 50, 50, 0.1);
+    /* border-right: 1px solid rgb(50, 50, 50, 0.8); */
+    /* border: 1px solid; */
 }
 
 .vendeur img{
@@ -15,6 +17,6 @@
 }
 
 .vendeur h6{
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 0;
 }

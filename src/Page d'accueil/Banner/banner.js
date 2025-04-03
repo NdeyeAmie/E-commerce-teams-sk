@@ -18,26 +18,27 @@ function Banniere() {
     return (
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item style={{height: '70vh'}}>
+          <div className="flou"></div>
           <img src={Imag1} text="First slide" style={{width: '100%', objectFit: 'cover', height: '100%'}} alt="" />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Offre Special</h3>
+            <p>Profitez de l'offre de ce mois en achetant des produits à bas prix</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={{height: '70vh'}}>
+          <div className="flou"></div>
           <img src={Imag2} text="Second slide" style={{width: '100%', objectFit: 'cover', height: '100%'}} alt="" />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Black Friday</h3>
+            <p>C'est bientôt le Black Friday !!!</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={{height: '70vh'}}>
+          <div className="flou"></div>
           <img src={Imag3} text="Third slide" style={{width: '100%', objectFit: 'cover', height: '100%'}} alt="" />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Nos Produits</h3>
+            <p>Acceder à tous nos produits et Acheter tout ce que vous voulez !</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

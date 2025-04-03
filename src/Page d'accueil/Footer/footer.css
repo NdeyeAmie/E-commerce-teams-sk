@@ -8,8 +8,8 @@ footer{
 .footContent{
     width: 100%;
     min-height: 45vh;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 10px 15px;
 }

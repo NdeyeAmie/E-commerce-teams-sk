@@ -1,6 +1,24 @@
 .titreSection{
     width: 100%;
-    background-color: burlywood;
-    padding: 15px 0;
+    padding: 15px 10px;
+    /* background-color: burlywood; */
 }
 
+.titreSection h6{
+    margin-left: 10px;
+    position: relative;
+}
+
+.titreSection h6::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    border-radius: 2px;
+    background-color: brown;
+    margin-left: -15px;
+}
+
+.titreSection h3{
+    margin-left: 10px;
+}

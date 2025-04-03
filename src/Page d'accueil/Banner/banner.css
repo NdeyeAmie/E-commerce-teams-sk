@@ -4,19 +4,31 @@
     border-radius: 50%;
 }
 
+.carousel{
+    box-shadow: 0 0 10px rgb(23, 23, 23, 0.4) !important;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-item .flou{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(23, 23, 23 ,0.4);
+    z-index: 1;
+}
+
 .carousel-item img{
     position: relative;
     z-index: 0;
-    /* opacity: 0.4; */
 }
 
-.carousel-item img::after{
-    content: "";
-    position: relative !important;
-    width: 100% !important;
-    height: 100% !important;
-    top: 0;
-    left: 0;
-    background-color: rgb(24,24,24) !important;
-    z-index: 2 !important;
+.carousel-caption{
+    z-index: 2;
+}
+
+.carousel-caption h3{
+    color: whitesmoke;
 }

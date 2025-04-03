@@ -1,4 +1,4 @@
-import React from "react";
+// import React, { useState } from "react";
 import './accueil.css'
 import Navbar from "./Navbar/navbar";
 import MainPart from "./main/main";
@@ -9,9 +9,31 @@ import PubSection from "./SectionPub/pub";
 import FooterPart from "./Footer/footer";
 
 import Imag from "./image/2.jpg"
+import InfoSection from './Infos du Site/infos';
 
 
 const Acceuil = () => {
+
+    // const [Produits, setProduits] = useState(["Shoes", "Shirt", "Faucet", "Accesories", "Vélo", "Car", "Ball", "HeadPhone"])
+    const Produits = [
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000}
+    ]
+
+    const recently = [
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000},
+        {nom: "nom", image: "0.png", prix: 20000},
+    ]
+
+
     return ( 
         <div className="accueil">
             <Navbar />
@@ -19,7 +41,7 @@ const Acceuil = () => {
             <SectionPart 
                 firstTitre="Catégories"
                 secondTitre="Nos Produits"
-                specialCard={<Cardsection />}
+                specialCard={<Cardsection produits={Produits} />}
             />
             <SectionPart 
                 firstTitre="Vendeurs"
@@ -28,13 +50,14 @@ const Acceuil = () => {
             />
             <PubSection 
                 image={Imag}
-                texte="Black Clover"
+                texte="Black Friday à partir de ce 10 Avril"
              />
              <SectionPart 
                 firstTitre="Produits"
                 secondTitre="Recentes Produits"
-                specialCard={<Cardsection />}
+                specialCard={<Cardsection produits={recently} />}
              />
+             <InfoSection />
              <FooterPart />
         </div>
      );
