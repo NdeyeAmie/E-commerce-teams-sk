@@ -146,7 +146,83 @@ border-radius: 100%;position: absolute; top: -20px;right: -20px;opacity: 0.5;}
 .right-content{padding: 90px 30px;}
 
 .dashboardBoxWrapper {gap: 15px; width: 100%; flex-wrap: wrap;}
-.dashboardBoxWrapper .dashboardBox{width: 48%;height: 200px;background: #ccc;}
+.dashboardBoxWrapper .dashboardBox{width: 48%;height: 170px;border-radius: 10px;overflow: 
+  hidden; padding: 20px; display: flex;flex-direction: column; 
+justify-content: space-around; text-align: left !important;position: relative;
+color: #fff;}
 
-.dashboardBoxWrapperRow .box{width: 100%;height: 100%;background: #ccc;}
+.dashboardBoxWrapper .dashboardBox .col1 h4{font-size: 16px; font-weight: 600;}
+.dashboardBoxWrapper .dashboardBox .col1 span{font-size: 35px !important ;font-weight: bold;
+line-height: 45px;}
+
+.dashboardBoxWrapperRow .dashboardBox .icon{display: flex;align-items: center;justify-content: center;width: 50px;
+height: 50px;border-radius: 10px;background-image: linear-gradient(to bottom right, rgba(0,0,0,0.0 ) , rgba(0,0,0,0.3));}
+.dashboardBoxWrapperRow .dashboardBox .icon svg{font-size: 40px; opacity: 0.4;color: #fff;}
+
+.dashboardBoxWrapperRow .dashboardBox .toggleIcon{font-size: 22px;color: rgba(0,0,0,0.5 );cursor: pointer;
+max-width: 40px !important;width: 40px !important; height: 40px !important;
+border-radius: 50% !important;}
+
+.dashboardBoxWrapperRow .dashboardBox .chart{ opacity: 0.1;position: absolute; bottom: 20px;  
+  left: 20px;}
+.dashboardBoxWrapperRow .dashboardBox .chart svg{font-size: 110px; color: #000;}
+.dashboardBoxWrapper .dashboardBox .bottomEle{position: relative;top: 15px;}
+
+.dashboardBoxWrapperRow .box{width: 100%;height: 100%;}
+
+.dashboardBoxWrapperRow .dashboardBox .MuiList-root svg{color: #000 !important;font-size: 17px !important;
+margin-right: 10px !important;}
+
+.dropdoown_menu .MuiButtonBase-root svg{margin-right: 10px !important;}
+
+.graphBox{background-image: linear-gradient(#1a50b5 , #2a6ff7);border-radius: 10px;padding: 
+  25px;}
+.toggleIcon{font-size: 22px;color: rgba(0,0,0,0.5 );cursor: pointer;
+  max-width: 40px !important;width: 40px !important; height: 40px !important;border-radius: 50% !important;}
+.toggleIcon svg{color: #fff !important;font-size: 20px !important;opacity: 1 !important;}
+.graphBox h4{font-size: 16px; font-weight: 600;}
+.graphBox p{font-size: 13px;color: #fff; overflow: 0.7;}
+
+.card{width: 100% !important;margin: 20px 0px; border-radius: 10px;}
+.card .hd{font-size: 18px;font-weight: bold;color: #403e57;}
+
+.cardFilters .col-md-3 h4{font-size: 14px; font-weight: 800; text-transform: capitalize;
+color: #403e57;}
+
+h1,h2,h3,h4,h5,h6,p{color: #403e57;}
+
+.table .thead-dark th{color: #fff; background-color: #1866ee !important; border-color: rgba(255,255,255,0.1) !important;
+  font-size: 13px !important;}
+.table tbody td{font-size: 14px !important; color: #2f2d3e !important;font-weight: 500;}
+
+.table tbody .actions button{max-width: 32px !important; width: 32px !important;height: 32px 
+  !important; margin: 0px 3px;}
+
+.table tbody .actions button.secondary{background-color: rgba(203,60,231,0.2) !important;}
+.table tbody .actions button.success{background-color: rgba(26,159,83,0.2) !important;}
+.table tbody .actions button.error{background-color: rgba(241,17,51,0.2) !important;}
+
+.table tbody .actions button svg{font-size: 32px !important;}
+
+table.v-align td{vertical-align: middle;}
+
+.table td .old,.table td .new{display: block;width: 100%;}
+
+table td .imgWrapper{width: 20%;flex: 0 0 20%;}
+table td .info{width: 65%;flex: 0 0 65%;}
+
+table td .info h6{overflow: hidden;
+  text-overflow: ellipsis;
+white-space: nowrap;font-size: 14px;
+font-weight: 600;margin-bottom: 5px;}
+
+table td .info p{font-size: 13px;
+  line-height: 18px;
+overflow: hidden;text-overflow: ellipsis;
+white-space: nowrap; color: #5e5d72; margin-bottom: 0px;
+}
+
+table.v-align td .productBox{width: 270px;}
+
+
 
