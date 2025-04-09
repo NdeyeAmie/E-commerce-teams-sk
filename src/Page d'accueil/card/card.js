@@ -6,7 +6,7 @@ const CardPart = ({element}) => {
     const {nom, image, prix} = element
 
     return ( 
-        <div className="card">
+        <div className="cardProduit">
             <div className="image">
                 <img src={image} alt="" />
                 <button>Add to card</button>
